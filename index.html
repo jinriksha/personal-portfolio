@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio</title>
+  <link rel='stylesheet' href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proza+Libre">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js" async></script>
+  <script type="text/javascript" src="js/bootstrap.min.js" async></script>
+</head>
+
+<!-- Navbar -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Richard Shaw</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/jinriksha" class="fa fa-github"></a></li>
+          <li><a href="https://stackoverflow.com/users/8312910/richard-shaw" class="fa fa-stack-overflow"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- About section -->
+
+  <section id="about" class="container-fluid bio">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-7">
+        <h1 class="title">Richard Shaw</h1>
+        <h2>Web developer, husband, and father</h2>
+        <p class="info">I am a well-rounded front-end web developer with experience in responsive design using HTML, CSS, JavaScript, and frameworks such as Bootstrap and JQuery.</p>
+        <p class="info">I am a career changer and student at <a href="http://udacity.com" target="_blank">Udacity.com</a> working on a nanodegree program in Front-End Web Development. Previously, I
+          was a PhD student in Hispanic Linguistics and a college Spanish instructor. Technology has always been a part of my life. In the mid 1990s, while in college, I bought my first computer, a Windows 95 machine.
+          I learned HTML on my own and created my first website on Geocities. As a Masters student at the University of Colorado at Boulder I created an educational website to introduce Latin American culture
+          to the students of the university's department of Spanish and Portuguese.</p>
+        <p class="info">In addition to Udacity.com, I have taken courses in web development at <a href="https://freecodecamp.org" target="_blank">Freecodecamp.org</a>, <a href="https://codeschool.com" target="_blank">Codeschool.com</a>, and <a href="https://codecademy.com" target="_blank">Codecademy.com</a>.</p>
+        <p class="info">When I'm not developing websites, I am spending time with my family or reading philosophy, science fiction, history, and politics.</p>
+      </div>
+      <div class="col-md-3">
+        <img class="img-responsive" src="images/family-portrait.jpg" alt="Picture of Richard Shaw's family">
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </section>
+
+<!-- Portfolio section -->
+
+  <section id="portfolio" class="featured-work">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title">Featured Work</h2><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h3>Tribute page for Murray Rothbard</h3>
+          <img src="images/tribute-page.jpg" class="img-responsive" alt="Screenshot of Tribute Page for Murray Rothbard" data-toggle="modal" data-target="#project1">
+        </div>
+        <div class="col-md-5">
+          <h3>Animal trading card: American Kestrel</h3>
+          <img src="images/animal-trading-card.jpg" class="img-responsive" alt="Screenshot of Animal trading card: American Kestrel project" data-toggle="modal" data-target="#project2">
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div><br>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h3>Mockup to article</h3>
+          <img src="images/mockup-to-article.jpg" class="img-responsive" alt="Screenshot of mockup to article project" data-toggle="modal" data-target="#project3">
+        </div>
+        <div class="col-md-5">
+          <h3>Some text..</h3>
+          <a href="#"><img src="http://via.placeholder.com/640X400" class="img-responsive" alt="Image"></a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div><br>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h3>Some text..</h3>
+          <a href="#"><img src="http://via.placeholder.com/640X400" class="img-responsive" alt="Image"></a>
+        </div>
+        <div class="col-sm-5">
+          <h3>Some text..</h3>
+          <a href="#"><img src="http://via.placeholder.com/640X400" class="img-responsive" alt="Image"></a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Modals -->
+
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Tribute page to Murray Rothbard</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/tribute-page.jpg" alt="Screenshot of Tribute Page for Murray Rothbard">
+                  <p>This was my first project done at <a href="http://freecodecamp.com">freecodecamp.com</a>. I learned a lot about how to code website structure using HTML and how to style pages using CSS.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Animal trading card: American Kestrel</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/animal-trading-card.jpg" alt="Screenshot of Animal trading card: American Kestrel project">
+                  <p>This was one of my first projects in the Front-End Web Developer nanodegree at Udacity. I learned a lot about styling HTML and CSS.
+                  I also learned about a common web dev workflow of taking a design mockup pdf and coding it using HTML and CSS.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Mockup to article</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/mockup-to-article.jpg" alt="Screenshot of mockup to article project">
+                  <p>This the first project I completed in the Front-End Web Developer nanodegree at Udacity. I learned a lot about styling HTML and CSS.
+                  I also learned about a common web dev workflow of taking a design mockup pdf and coding it using HTML and CSS.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- TODO: Future form functionality
+
+  <section id="contact">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
+        <h2>Contact Me:</h2>
+        <form id="contactForm" novalidate="">
+          <div class="form-group">
+            <label for="“name”">Name</label>
+            <input id="name" class="form-control" type="text" placeholder="Name" required="">
+          </div>
+          <div class="form-group">
+            <label for="“email”">Email Address</label>
+            <input id="email" class="form-control" type="email" placeholder="Email Address" required="">
+          </div>
+          <div class="form-group">
+            <label for="“phone”">Phone Number</label>
+            <input id="phone" class="form-control" type="tel" placeholder="Phone Number" required="">
+          </div>
+          <div class="form-group">
+            <label for="“message”">Message</label>
+            <textarea id="message" rows="5" class="form-control" placeholder="Message" required=""></textarea>
+          </div><br>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="message col-md-4">
+          <p>Want to get in touch with me? ... just feel free to drop me a line anytime.</p>
+          <p>I promise to reply A.S.A.P.</p>
+          <p>Note: No spam/soliciting please.</p>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      </div>
+  </section>
+
+-->
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Made by Richard Shaw - Contact:
+          <a href="https://www.facebook.com/profile.php?id=100019498271370" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/richard-shaw-b0139a149" class="fa fa-linkedin"></a>
+          <a href="https://www.twitter.com/@jinriksha" class="fa fa-twitter"></a>
+          <a href="mailto:jinriksha@me.com?subject=feedback" class="fa fa-envelope"></a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+/*General styles*/
+
+body {
+  position: relative;
+  font-family: "Proza Libre", sans-serif;
+  background-color: #565656;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+/*Link styles*/
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fedc3d;
+}
+
+a:visited {
+  color: #01abaa;
+}
+
+/*Specific style rules and overrides on Bootstrap styles*/
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #000;
+  text-align: center;
+}
+
+.fa {
+  padding: 5px;
+  color: white;
+}
+
+.bio {
+  padding: 80px 20px 20px 20px;
+  background-color: #373737;
+  text-align: left;
+}
+
+.featured-work {
+  text-align: center;
+}
+
+.featured-work > img {
+  width: 100%;
+}
+
+h1.title,
+h2.title {
+  color: #fedc3d;
+}
+
+.modal-content {
+  background-color: #373737;
+  text-align: center;
+}
+
+/* TODO: Future form styles
+section#contact {
+  background-color: #cdcdcd;
+  color: #000;
+  padding: 20px;
+  margin-top: 20px;
+}
+.message {
+  margin-top: 20px;
+}
+*/
