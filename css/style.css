@@ -22,6 +22,7 @@ a {
 
 a:hover {
   color: #fedc3d;
+  cursor: pointer;
 }
 
 a:visited {
