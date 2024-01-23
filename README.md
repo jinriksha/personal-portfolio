@@ -4,5 +4,5 @@ My portfolio page featuring some of my work.
 
 ## TODO
 
-- Get web hosting and buy www.richardshaw.com
-- Add Pixel Art Maker to Featured Work (Completed 11/17/2017)
+- [ ] Add Pixel Art Maker to Featured Work (Completed 11/17/2017)
+- [ ] Published at https://jinriksha.github.io
